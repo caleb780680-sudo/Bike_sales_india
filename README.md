@@ -20,13 +20,12 @@ The dataset has undergone the following preprocessing stages using Python (Panda
    - **Price_Per_CC:** Created a new metric evaluating resale price relative to engine capacity.
 
 ## 📂 File Structure
-- `bike_sales_500.csv`: The final processed dataset containing 500 rows with newly added features.
+- `bike_sales_india.csv`: The final processed dataset containing 500 rows with newly added features.
 
 ## 🚀 How to Use in Python
 You can easily load this cleaned dataset directly into your Google Colab or Jupyter Notebook using the GitHub Raw link:
 
-```python
-import pandas as pd
+
 
 url = "PASTE_YOUR_GITHUB_RAW_LINK_HERE"
 df = pd.read_csv(url)
